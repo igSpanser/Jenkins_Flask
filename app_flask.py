@@ -10,6 +10,6 @@ def hello():
     return "Hello World"
 
 if (__name__ == "__main__"):
-    app.run(host='0.0.0.0',port='5000', debu=True)
+    app.run(host='0.0.0.0',port='5000', debug=True)
 
 ##### Copy IP from terminal output and put it it web browser. 
